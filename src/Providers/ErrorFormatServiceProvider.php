@@ -4,10 +4,10 @@ namespace Johnvict\ErrorFormat\Providers;
 
 
 use Illuminate\Support\ServiceProvider;
-use Johnvict\ErrorFormat\Services\DataHelper;
+use Johnvict\ErrorFormat\Services\ErrorFormat;
 
 class ErrorFormatServiceProvider extends ServiceProvider {
-	use DataHelper;
+	use ErrorFormat;
 	public function boot() {
 		info("ERROR FORMAT PACKAGE WORKS");
 	}
