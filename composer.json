@@ -3,7 +3,7 @@
     "description": "Error-Format helps you do validation and returns a more pleasing error object if there is one or more, using Laravel In-built Validator",
     "type": "library",
     "require": {
-        "illuminate/support": "^7.2",
+        "illuminate/support": "^7.28",
         "php": "^7.2"
     },
 	"autoload": {
