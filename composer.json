@@ -21,7 +21,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Johnvict\\ErrorFormatServiceProvider"
+				"Johnvict\\ErrorFormat\\Providers\\ErrorFormatServiceProvider"
 			]
 		}
 	},
